@@ -25,10 +25,13 @@
 
 > **d.) Wandeln Sie ein RGB-Farbbild in ein Bayer-Pattern-Bild um**
 >
+> Ist noch nicht fertig. 
 
 ## Code Matlab 
 ``` 
-
+    b=zeros(512,512,3);
+    b(2:2:end,2:2:end,3)=lena_std(2:2:end,2:2:end,3);
+    imshow(b)
 
 
 ```
