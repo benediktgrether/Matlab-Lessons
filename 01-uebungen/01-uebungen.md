@@ -4,7 +4,7 @@
 >
 
 ## Code Matlab 
-``` 
+``` Matlab
 
     b = zeros(16, 16, 3);
     
@@ -16,9 +16,22 @@
     % 1 | 1 Bekommt die Farbe Rot. 
 
     b(2:2:end, 1:2:end, 3) = 1;
+    
+    % 2:2:end | 2 = zweite Zeile, 2 = zweiter Wert bis zum Ende
+    % 1:2:end | 1 = jede erste Zeile, 2 = jeder zweiter Wert bis zum Ende. 
+    3 | 3 Bekommt die Farbe Blau.
 
     b(1:2:end, 1:2:end, 2) = 1;
+    
+    % 1:2:end | 1 = erste Zeile , 2 = 2 Wert bis zum Ende.
+    % 1:2:end | 1 = jede erste Zeile , 2 = jeder zweite Wert bis zum Ende.
+    2 | 2 Bekommt die Farbe Grün
+
     b(2:2:end, 2:2:end, 2) = 1;
+    % 2:2:end | 2 = zweite Zeile, 2 = zweiter Wert bis zum Ende
+    % 2:2:end | 2 = jede zweite Zeile , jeder 2 Wert bis zum Ende.
+    2 | 2 Bekommt die Farbe Grün
+    
     imtool(b)
 
 ```
