@@ -28,6 +28,7 @@
     2 | 2 Bekommt die Farbe Grün
 
     b(2:2:end, 2:2:end, 2) = 1;
+    
     % 2:2:end | 2 = zweite Zeile, 2 = zweiter Wert bis zum Ende
     % 2:2:end | 2 = jede zweite Zeile , jeder 2 Wert bis zum Ende.
     2 | 2 Bekommt die Farbe Grün
