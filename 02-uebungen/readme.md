@@ -57,5 +57,5 @@ umwandelt**
 
 ``` Matlab
 lena_grey = rgb2gray(lena_std);
->> imshow(lena_grey)
+imshow(lena_grey)
 ```
