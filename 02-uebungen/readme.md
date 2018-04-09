@@ -40,6 +40,7 @@ HSI =
 umwandelt**
 
 ``` Matlab
+% Unsere Lösung
 >> hsv = rgb2hsv(lena_std);
 >> imshow(hsv)
 ```
