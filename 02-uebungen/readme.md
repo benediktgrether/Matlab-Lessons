@@ -45,6 +45,7 @@ umwandelt**
 ```
 
 ``` Matlab
+% Wir haben keine Ahnung was wir hier machen.......
 >> r=lena_std(:,:,1);
 >> g=lena_std(:,:,2);
 >> b=lena_std(:,:,3);
@@ -52,7 +53,8 @@ umwandelt**
 ```
 
 > **h) Wenden Sie die Funktion rgb2gray in Matlab auf lena_std an**
-```Matlba
+
+``` Matlab
 lena_grey = rgb2gray(lena_std);
 >> imshow(lena_grey)
 ```
