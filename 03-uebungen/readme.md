@@ -31,3 +31,7 @@ for z = 1:Z
     end 
 end
 ``` 
+
+``` Matlab
+imshow(my_affin(lena_std))
+```
