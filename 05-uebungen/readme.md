@@ -37,3 +37,4 @@ function out = histogramNew(in)
        bar(histo/x/y);
 end
 ``` 
+- Leider stimmt das Histogramm nicht ganz.... :'(
