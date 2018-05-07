@@ -1,3 +1,5 @@
+
+```Matlab
 function h = entropy_new(x, n)
 
 error(nargchk(1, 2, nargin));         
@@ -12,4 +14,5 @@ xh = xh / sum(xh(:));
 
 i = find(xh);           
 
-h = -sum(xh(i) .* log2(xh(i)));       
+h = -sum(xh(i) .* log2(xh(i)));
+```
