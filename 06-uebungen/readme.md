@@ -1,4 +1,6 @@
 
+> e) -Entropie
+
 ```Matlab
 function h = entropy_new(x, n)
 
